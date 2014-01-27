@@ -2,6 +2,8 @@
 
 In this assignment we'll revisit the [Sinatra Bookmarker](https://github.com/ga-wdi-boston/wdi_3_ruby_lab_sinatra_bookmarks), building the same functionality in Rails.
 
+Fork and clone this repository to get started. I've already run `rails new . -T --database=postgresql` and removed the username and password lines from `config/database.yml`, so all you should need to do is run `rake db:create` to get a working environment.
+
 ## Assignment
 
 Create a Rails app that allows me to track my bookmarks. Bookmarks have:
