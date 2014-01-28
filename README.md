@@ -18,3 +18,7 @@ I should be able to see all my bookmarks in a list (and click on them to go to t
 ## Bonus Stage
 
 Upgrade your bookmarker to a URL shortener! Each bookmark should display a second URL *internal to your app* that, when I click on it or type it into my browser, redirects me to the real URL. Don't worry about actually making the URLs short &ndash; the idea here is to redirect me out of your app when I visit a URL within it.
+
+### Bonus Stage x2 COMBO
+
+Track the number of times I've clicked on the "shortened" URLs, and display the count next to each bookmark in the list.
