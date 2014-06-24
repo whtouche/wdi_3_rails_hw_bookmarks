@@ -16,29 +16,26 @@ Since this is a decently-sized project, put some polish into it! The details of 
 
 One more thing: Make sure you provide some working seed data so we can easily test your app without typing in a bunch of bookmarks. Pulling down a fresh copy of your app and running `rake db:setup` should not give any errors.
 
-## Grading
+## Specifications
 
-* **(1)** App has a database schema with appropriate columns and indexes
-* **(1)** App has working seed data that creates a variety of bookmarks
-* **(2)** User can view bookmarks in an alphabetical list with titles/categories
-* **(1)** User can see from the list which bookmarks are favorite/commented
-* **(1)** User can filter the list of bookmarks by category, and clear the filter
-* **(1)** User can view all attributes of a specific bookmark
-* **(2)** User can submit new bookmarks
-* **(1)** User can edit the attributes of existing bookmarks
-* **(1)** User can delete existing bookmarks
-* **(2)** Bookmarks have appropriate validations and show errors to the user
-* **(1)** App has at least basic styles to provide an attractive and intuitive experience
-* **(1)** App generates HTML and CSS that validates with no errors
-* **(1)** Code is placed in the correct locations and files according to Rails conventions
-* **(2)** Code follows style conventions and has descriptive variable and method names
-* **(2)** Repository has clean, logical, single-task commits with descriptive messages
+* App has a database schema with appropriate columns and indexes
+* App has working seed data that creates a variety of bookmarks
+* User can view bookmarks in an alphabetical list with titles/categories
+* User can see from the list which bookmarks are favorite/commented
+* User can filter the list of bookmarks by category, and clear the filter
+* New categories can be easily added to your code without any duplication
+* User can view all attributes of a specific bookmark
+* User can submit new bookmarks
+* User can edit the attributes of existing bookmarks
+* User can delete existing bookmarks
+* Bookmarks have appropriate validations and show errors to the user
+* App has at least basic styles to provide an attractive and intuitive experience
+* App generates HTML and CSS that validates with no errors
+* Code is placed in the correct locations and files according to Rails conventions
+* Code follows style conventions and has descriptive variable and method names
+* Repository has clean, logical, single-task commits with descriptive messages
 
-Total points: **20**
+## Extra Challenges
 
-## Bonuses
-
-* **(2)** Instead of the real URL, link bookmark titles to another path within your app that redirects to the real URL and increments a click-tracking counter. This will allow me to share specific bookmarks with friends and track their popularity.
-* **(2)** Extra points will be awarded for crafting an impressive and attractive user experience that makes use of a CSS framework such as Bootstrap or Foundation.
-
-Total bonus points: **4**
+* Instead of the real URL, link bookmark titles to another path within your app that redirects to the real URL and increments a click-tracking counter. This will allow me to share specific bookmarks with friends and track their popularity.
+* Extra points will be awarded for crafting an impressive and attractive user experience that makes use of a CSS framework such as Bootstrap or Foundation.
