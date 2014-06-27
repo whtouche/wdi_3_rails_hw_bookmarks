@@ -1,5 +1,12 @@
+Bookmarks
+<%= render partial: "bookmark", collection: @bookmarks %>
+
+<!--
 <ul>
 <% @bookmarks.each do |bookmark| %>
-<li>Name is <%= bookmark.title %>, Category is <%= bookmark.category %>
+<%= bookmark.category %>,
+<li><%= bookmark.title %>
+<br>
 <% end %>
 </ul>
+-->
