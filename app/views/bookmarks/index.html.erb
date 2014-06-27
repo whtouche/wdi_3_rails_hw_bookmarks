@@ -1,14 +1,7 @@
 Bookmarks
+
 <%= render partial: "bookmark", collection: @bookmarks %>
 
 <br>
 <%= link_to 'Add a new bookmark', new_bookmark_path %>
-<!--
-<ul>
-<% @bookmarks.each do |bookmark| %>
-<%= bookmark.category %>,
-<li><%= bookmark.title %>
-<br>
-<% end %>
-</ul>
--->
+
