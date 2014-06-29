@@ -2,6 +2,8 @@ class BookmarksController < ApplicationController
 
   def index
     @bookmarks = Bookmark.all.order(:title)
+    # has_favorite = bookmark.is_favorite
+    # has_comment = bookmark.comment.present
   end
 
   def show
