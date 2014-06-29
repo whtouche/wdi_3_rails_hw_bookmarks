@@ -56,6 +56,13 @@ Bookmark.create!(
   is_favorite: true
   )
 
+Bookmark.create!(
+  url: 'http://www.xojane.com',
+  title: 'xoJane',
+  comment: '',
+  category: 'Serious',
+  is_favorite: true
+  )
 =begin
 Bookmark.create!(
   url: ,

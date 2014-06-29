@@ -5,7 +5,10 @@ class CreateBookmarks < ActiveRecord::Migration
       t.text :title, null: false
       t.text :comment
       t.text :category
-      t.boolean :is_favorite null: false, default: false
+      t.boolean :is_favorite, null: false, default: false
+
+      t.index :url, unique: true
+      t.index :title, unique: true
     end
   end
 end
