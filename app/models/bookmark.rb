@@ -4,5 +4,5 @@ class Bookmark < ActiveRecord::Base
   validates :url, presence: true
   validates :url, uniqueness: true
   validates :title, presence: true
-  validates :category, :inclusion => { :in => %w(Serious Funny Useful) }
+  validates :category, :inclusion => { :in => %w(Serious Funny Useful), message: "Category must be Serious, Funny, or Useful" }
 end
